@@ -30,7 +30,7 @@ while Loop:
       #not working
       # X roll
     elif menu == "3":
-        num = input("choose a number")
+        num = int(input("choose a number: "))
         for I in range(num):
             XR = random.randrange(1,6)
             XR2 = random.randrange(1,6)
