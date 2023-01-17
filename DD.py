@@ -53,6 +53,3 @@ while Loop:
     # exit
     if menu == "5":
         Loop = False
-
-
-
