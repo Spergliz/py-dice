@@ -10,7 +10,7 @@ while Loop:
     print("4. roll til Snake Eyes")
     print("5. Exit")
     menu = input("choose a number from menu: ")
-    # 1 dice roll
+    # 1 roll
     if menu == "1":
         print("\n")
         DR = random.randrange(1, 6)
@@ -49,8 +49,7 @@ while Loop:
             if SER+SER2 == 2:
                 print ("Snake Eyes")
                 loop=False
-
-
+    # setup before eveything else above, 
     # exit
     if menu == "5":
         Loop = False
