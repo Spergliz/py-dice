@@ -1,5 +1,7 @@
+# imports
 import random
-# loop
+
+# loops
 Loop = True
 while Loop:
     # menu
@@ -10,6 +12,7 @@ while Loop:
     print("4. roll til Snake Eyes")
     print("5. Exit")
     menu = input("choose a number from menu: ")
+
     # 1 roll
     if menu == "1":
         print("\n")
@@ -27,7 +30,6 @@ while Loop:
             print(str(FR) + "," + str(FR2))
             print("sum: " + str(FR+FR2))
 
-      # not working
       # X roll
     elif menu == "3":
         num = int(input("choose a number: "))
@@ -37,6 +39,7 @@ while Loop:
             print("")
             print(str(XR) + "," + str(XR2))
             print("sum: " + str(XR+XR2))
+
     # SE roll
     elif menu == "4":
         loop = True
@@ -49,6 +52,7 @@ while Loop:
             if SER+SER2 == 2:
                 print("Snake Eyes")
                 loop = False
+
     # setup before eveything else above,
     # exit
     if menu == "5":
